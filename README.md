@@ -7,3 +7,4 @@ The concept revolves around creating images using a large matrix of binary numbe
 Potential further functionality could give the appearance of a moving video. 
 
 
+![octal_name](resources/name.png)

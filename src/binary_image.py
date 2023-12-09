@@ -28,8 +28,8 @@ def detect_edges(image: np.matrix):
 
 
 def prepare_output_matrix(edges: np.matrix):
-    invert_image = 255 - edges  # Invert image so black lines become 255 values
-    inverted_scale = invert_image / 255  # Scale 255 values to zero
+    # invert_image = 255 - edges  # Invert image so black lines become 255 values
+    inverted_scale = edges / 255  # Scale 255 values to zero
     return inverted_scale
 
 
